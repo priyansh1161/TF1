@@ -1,0 +1,32 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+.control-icons {
+    font-size: 40px;
+}
+i{
+    display: inline;
+    /*background-color: #3c3c3c;*/
+    padding: 0px !important;
+}
+i:hover{
+    color : #2b669a;
+}
+.pad{
+    padding-left: 0.7% !important;
+}
+.mrg-adg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 786px) {
+.mrg-adg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+}
