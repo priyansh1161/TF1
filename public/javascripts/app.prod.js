@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000');
+var socket = io('https://iotbeast.herokuapp.com');
 socket.on('connect', function(){
     console.log('socket connection established');
 });
